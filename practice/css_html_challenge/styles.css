@@ -1,0 +1,30 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  display: flex;
+}
+
+.top-columns {
+  width: 33%;
+  background-color: cornflowerblue;
+}
+
+nav {
+  height: 100px;
+  width: 100%;
+}
+
+.left-column {
+  width: 50%;
+  background-color: indianred;
+}
+
+.right-column {
+  width: 50%;
+  background-color: gold;
+}
